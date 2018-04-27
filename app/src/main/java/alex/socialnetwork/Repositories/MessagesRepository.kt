@@ -13,7 +13,6 @@ class MessagesRepository {
     private val myRef = database.getReference(path)
 
     fun loadMessages(messageLoadListener: MessageLoadListener) {
-
         val query : Query = myRef.orderByChild("createdAt/time")
         query.addChildEventListener(object : ChildEventListener {
             override fun onChildAdded(dataSnapshot: DataSnapshot?, s: String?) {
@@ -61,7 +60,6 @@ class MessagesRepository {
 
         return messages
     }
-
 
     fun addMessage(text: String, email: String, uid: String) {
         val id = UUID.randomUUID().toString()

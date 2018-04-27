@@ -25,7 +25,6 @@ class MessengerActivity : AppCompatActivity() {
         adapter = MessagesListAdapter(user!!.uid, null)
         messagesList.setAdapter(adapter)
 
-
         repository = MessagesRepository()
 
         repository.loadMessages(object : MessagesRepository.MessageLoadListener {

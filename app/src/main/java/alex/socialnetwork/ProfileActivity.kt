@@ -11,7 +11,6 @@ import com.google.firebase.database.*
 import com.makeramen.roundedimageview.RoundedImageView
 import com.squareup.picasso.Picasso
 import android.content.Intent
-import android.support.annotation.NonNull
 import android.support.design.widget.BottomNavigationView
 import android.view.MenuItem
 
@@ -54,7 +53,6 @@ class ProfileActivity : AppCompatActivity() {
                         startMap()
                     }
                 }
-
 
                 return false
             }

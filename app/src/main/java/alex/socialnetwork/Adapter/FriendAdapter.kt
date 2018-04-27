@@ -33,7 +33,7 @@ class FriendAdapter(private var activity: Activity, var items: List<Friend>) : R
         holder.message.text = "Chat"
         holder.name.text = friendModel.name
 
-        if (friendModel.avatar != null) Picasso.get().load(friendModel.avatar).into(holder.avatar)
+        if (friendModel.link != null) Picasso.get().load(friendModel.link).into(holder.avatar)
         else holder.avatar.setImageResource(R.drawable.default_avatar)
     }
 
