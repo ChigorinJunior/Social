@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessengerActivity">
+
+    <com.stfalcon.chatkit.messages.MessagesList
+        android:id="@+id/messagesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/input"
+        app:dateHeaderFormat="dd MMMM yyyy"
+        app:incomingDefaultBubbleColor="#bd000000"
+        app:incomingDefaultBubblePressedColor="#2b2b2b"
+        app:incomingDefaultBubbleSelectedColor="#464646"
+        app:incomingDefaultImageOverlayPressedColor="@color/black"
+        app:incomingDefaultImageOverlaySelectedColor="@color/gray"
+        app:incomingTextColor="@color/colorPrimary"
+        app:incomingTextLinkColor="#008000"
+        app:incomingTextSize="18sp"
+        app:outcomingDefaultBubbleColor="#bd000000"
+        app:outcomingDefaultBubblePressedColor="#2b2b2b"
+        app:outcomingDefaultBubbleSelectedColor="#464646"
+        app:outcomingDefaultImageOverlayPressedColor="@color/black"
+        app:outcomingDefaultImageOverlaySelectedColor="@color/gray"
+        app:outcomingTextColor="@color/colorPrimary"
+        app:outcomingTextLinkColor="#008000"
+        app:outcomingTextSize="18sp"
+        app:textAutoLink="all"/>
+
+    <com.stfalcon.chatkit.messages.MessageInput
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:inputHint="enter a message"/>
+
+</RelativeLayout>

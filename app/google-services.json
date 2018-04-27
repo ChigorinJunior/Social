@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "916692258729",
+    "firebase_url": "https://simbir-ff4c2.firebaseio.com",
+    "project_id": "simbir-ff4c2",
+    "storage_bucket": "simbir-ff4c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916692258729:android:c51b9401cf1e73f8",
+        "android_client_info": {
+          "package_name": "alex.social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916692258729-p7k25vbd5o27vmq3tgsccvlmabga4oao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdn5Z48YvZ5BKYVogTBU7ZfGa1k7-WwNM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916692258729:android:a84896ddf6db7a4a",
+        "android_client_info": {
+          "package_name": "alex.socialnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916692258729-p7k25vbd5o27vmq3tgsccvlmabga4oao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdn5Z48YvZ5BKYVogTBU7ZfGa1k7-WwNM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SocialNetwork</string>
+    <string name="enter">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="password">Пароль</string>
+    <string name="email">Email</string>
+    <string name="map">Карта</string>
+    <string name="friends">Друзья</string>
+    <string name="Profile">Профиль</string>
+    <string name="chat">Чат</string>
+    <string name="confirm">Повторите пароль</string>
+    <string name="back">Назад</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="save">Сохранить</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="link_to_avatar">Ссылка на аватар</string>
+    <string name="profile">Профиль</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
