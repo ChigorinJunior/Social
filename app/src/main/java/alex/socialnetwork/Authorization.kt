@@ -25,13 +25,16 @@ class Authorization : AppCompatActivity() {
         finish()
     }
 
+    // TODO: параметр view не нужен
     fun enter(view : View) {
         val mail = findViewById<EditText>(R.id.email)
         val pass = findViewById<EditText>(R.id.password)
 
+        // TODO: для констант нужны осмысленные имена типа EMAIL_MIN_LENGTH
         if (mail.text.length > 2 && pass.text.length > 5) {
             login(mail.text.toString(), pass.text.toString())
         } else {
+            // TODO: строку лучше в ресурсы
             Toast.makeText(this, "Проверьте правильность набора данных и попробуйте снова", Toast.LENGTH_LONG).show()
         }
     }

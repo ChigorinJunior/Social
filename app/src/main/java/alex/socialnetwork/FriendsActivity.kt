@@ -30,7 +30,7 @@ class FriendsActivity : AppCompatActivity() {
         friendsRepository.loadFriends(object : FriendsRepository.FriendsLoadListener {
             override fun onFriendsLoaded(friends: List<Friend>) {
                 for (f in friends)
-                {
+                { // TODO: скобки по договоренности пишутся на той же строке
                     items.add(f)
                 }
                 adapter = FriendAdapter(this@FriendsActivity, items)
@@ -39,10 +39,11 @@ class FriendsActivity : AppCompatActivity() {
             }
 
             override fun onError(error: Throwable) {
-
+                // TODO: ошибку обработать
             }
         })
 
+        // TODO: есть плагин, позволяющий в случае Котлина не писать findViewById
         val recyclerView = findViewById<RecyclerView>(R.id.friends_list)
         recyclerView.addOnItemTouchListener(object : RecyclerView.OnItemTouchListener {
 
@@ -55,6 +56,7 @@ class FriendsActivity : AppCompatActivity() {
 
             })
 
+            // TODO: проще навесить ClickListener внутри вью в адаптере
             override fun onInterceptTouchEvent(Recyclerview: RecyclerView, motionEvent: MotionEvent): Boolean {
 
                 val childView = Recyclerview.findChildViewUnder(motionEvent.x, motionEvent.y)

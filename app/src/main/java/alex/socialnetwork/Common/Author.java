@@ -2,6 +2,7 @@ package alex.socialnetwork.Common;
 
 import com.stfalcon.chatkit.commons.models.IUser;
 
+// TODO: этот класс вполне можно было написать тоже на Котлине
 public class Author implements IUser {
 
     private String id;

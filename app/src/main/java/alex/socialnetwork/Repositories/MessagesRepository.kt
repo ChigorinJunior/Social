@@ -45,7 +45,10 @@ class MessagesRepository {
 
     private fun definePath() : String
     {
+        // TODO: что-то слишком много принудительных кастов через !!
+        // TODO: лучше добавить проверок, чтобы не упало
         val currentUser = FirebaseAuth.getInstance().currentUser!!.email!!.filter { i -> i != '.' }
+        // TODO: а зачем ещё раз фильтровать?
         currentUser.filter { i -> i != '.' }
 
         return if (currentUser > friendsEmail) currentUser + friendsEmail else friendsEmail + currentUser

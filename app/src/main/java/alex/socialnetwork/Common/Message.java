@@ -53,6 +53,7 @@ public class Message implements IMessage {
         this.text = text;
     }
 
+    // TODO: неиспользуемые методы
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
     }

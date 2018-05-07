@@ -40,6 +40,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private val database : FirebaseDatabase = FirebaseDatabase.getInstance()
     private val myRef : DatabaseReference = database.reference.child("users/" + currentEmail)
 
+    // TODO: компаньон лучше или совсем наверх или совсем вниз
     companion object {
         private const val MY_PERMISSION_CODE : Int = 1000
     }

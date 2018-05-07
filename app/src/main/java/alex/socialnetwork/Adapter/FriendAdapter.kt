@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.friend_item.view.*
 
 class FriendViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView)
 {
+    // TODO: здесь IDE предлагает явно указать тип, чтобы знать null он или нет
     var avatar = itemView.avatar
     var name = itemView.name
     var message = itemView.message
@@ -37,6 +38,7 @@ class FriendAdapter(private var activity: Activity, var items: List<Friend>) : R
         else holder.avatar.setImageResource(R.drawable.default_avatar)
     }
 
+    // TODO: почему coins-то?
     fun updateData(coins : List<Friend>)
     {
         this.items = coins
